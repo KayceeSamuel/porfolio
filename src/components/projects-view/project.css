@@ -1,0 +1,133 @@
+.projectdiv1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+    padding-right: 1px;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.projectdiv1:hover{
+    transform:scale(1.1);
+}
+
+.projecttext1 {
+    padding-right: 3em;
+    padding-left: 1em;
+    left: 0px;
+}
+
+.projecttext2 {
+    padding-left: 3em;
+    padding-right: 1em;
+    right: 0px;
+    justify-content: right;
+}
+
+.projecttext3 {
+    padding-right: 3em;
+    padding-left: 1em;
+    left: 0px;
+}
+
+.projectdiv2 {
+    display:flex;
+    justify-content: left;
+    align-items: center;
+  
+    left: 0px;
+    background: rgb(121,131,139);
+background: linear-gradient(111deg, rgba(121,131,139,1) 0%, rgba(203,242,242,1) 100%);
+}
+
+.projectdiv2:hover{
+    transform:scale(1.1);
+}
+
+.projectdiv3 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    left: 0px;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.projectdiv3:hover{
+    transform: scale(1.1);
+}
+
+.lastpic {
+    padding-left: 3em;
+    padding-bottom: 7em;
+}
+
+.portfolio__container{
+    overflow: initial;
+}
+
+.portfolio__content{
+    margin-top: 10px;
+    
+    display: flex;
+    align-items: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.portfolio__img{
+    width: 265px;
+    border-radius: .5rem;
+    justify-self: center;
+}
+
+.portfolio__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: 15px;
+}
+
+.portfolio__description{
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif
+}
+
+.portfolio__button:hover .button__icon{
+    transform: translateX(.25rem)
+}
+
+.button__icon{
+    transform: translateX(.25rem)
+}
+
+.section__subtitle{
+    justify-self: center;
+    color: red;
+    font-family: 'Roboto Slab', serif;
+}
+
+.portfolio__data{
+    padding-left: 10px;
+}
+
+.image__settings{
+    width: 700px;
+    height: 400px;
+}
+
+.portfolio__title{
+    color: red;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.portfolio__top{
+    font-family: 'Roboto Slab', serif;
+    color: #93999e;
+}
+
+.portfolio__section{
+    margin-top: 200px;
+}

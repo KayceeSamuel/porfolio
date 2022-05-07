@@ -1,0 +1,108 @@
+
+.NavbarItems {
+
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    width: 100%;
+    
+    }
+    
+    
+    .nav-menu {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        grid-gap: 10px;
+        list-style: none;
+        text-align: center;
+        justify-content: end;
+        margin-right: 2rem;
+        width: 70vw;
+        font-size: 15px;
+    }
+    
+    .nav-links {
+        color: black;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+    
+    }
+    
+    .nav-links:hover {
+        background-color: rgb(27, 26, 77);
+        border-radius: 4px;
+        transition: all 0.2s ease-out;
+    
+    }
+    
+    .navbar_logo {
+        color: black;
+        justify-content: start;
+        margin-left: 5px;
+        cursor: pointer;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: 'Catamaran', sans-serif;
+        left: 0 !important;
+    
+    }
+    
+    .navbar {
+        width: 100%;
+        background-color: white;
+      
+        justify-content: space-around;
+        align-items: center;
+        padding: 1.5rem 1rem;
+        z-index: 50;
+    }
+    
+    
+    .cart_link{
+       
+        padding: 10px;
+        border-radius: 10px;
+        font-family: 'Catamaran', sans-serif;
+        
+      
+        justify-content: end;
+       
+        
+    }
+    
+    .cart_link:hover {
+        background: #a58343;
+        color: #f4f4f4; 
+    }
+    
+    .cart_link::after {
+        content: '';
+        height: 3px;
+        background: red;
+        position: absolute;
+    
+    }
+    
+    .navbar {
+        justify-content: space-around;
+        display: flex;
+    }
+    
+    
+    .cart_link li a {
+        transition: all 0.3s ease 0s;
+    }
+    
+    .nav-menu {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        grid-gap: 10px;
+        list-style: none;
+        text-align: center;
+        justify-content: right;
+        margin-right: 2rem;
+        width: 45vw;
+        font-size: 15px;
+    }

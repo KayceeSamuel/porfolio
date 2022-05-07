@@ -1,0 +1,46 @@
+.sideContainer {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 130px;
+    padding-left: 30px;
+}
+
+.sideText{
+    margin-top: 80px;
+    display: block;
+}
+
+.sideImg{
+  
+    margin-bottom: 40px;
+    
+}
+
+.button1{
+   
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: white;
+    margin-top: 60px;
+    
+    
+}
+
+.secondtext{
+    color: #d92c2c;
+    font-family: 'Roboto Slab', serif
+}
+
+.nameText{
+    color: #93999e;
+    font-size: 100px;
+    font-family: 'Roboto Slab', serif ;
+}
+
+.text2{
+    font-family: 'Roboto Slab', serif
+}
+
+.placeholder{
+    display: block;
+}

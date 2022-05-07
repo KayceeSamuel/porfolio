@@ -1,0 +1,27 @@
+.container2{
+
+padding-top: 7em;
+display: flex;
+justify-content: center;
+}
+
+.container3{
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    }
+
+.Buttonset {
+    color: '#e45d4e'
+}
+
+body{
+    background:#fff;
+}
+.rbody {
+    background-image: url("../img/background2.jpg");
+}
+
+footer{
+    margin-top: 7em;
+}
