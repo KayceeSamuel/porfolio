@@ -53,7 +53,7 @@ function HireView() {
                             <div className='skills__data'>
                                 <div className='skills__titles'>
                                     <h3 className='skills__name'>HTML</h3>
-                                    <span className='skills_number'>50%</span>
+                                    <span className='skills_number'>90%</span>
                                 </div>
                                 <div className='skills__bar'>
                                     <span className='skills__percentage skills_html'></span>
@@ -62,7 +62,7 @@ function HireView() {
                                 <div className='skills__data'>
                                     <div className='skills__titles'>
                                         <h3 className='skills__name'>CSS</h3>
-                                        <span className='skills_number'>50%</span>
+                                        <span className='skills_number'>80%</span>
                                     </div>
                                     <div className='skills__bar'>
                                         <span className='skills__percentage skills_css'></span>
@@ -72,7 +72,7 @@ function HireView() {
                                 <div className='skills__data'>
                                     <div className='skills__titles'>
                                         <h3 className='skills__name'>JavaScript</h3>
-                                        <span className='skills_number'>50%</span>
+                                        <span className='skills_number'>80%</span>
                                     </div>
                                     <div className='skills__bar'>
                                         <span className='skills__percentage skills_js'></span>
@@ -82,7 +82,7 @@ function HireView() {
                                 <div className='skills__data'>
                                     <div className='skills__titles'>
                                         <h3 className='skills__name'>React</h3>
-                                        <span className='skills_number'>50%</span>
+                                        <span className='skills_number'>80%</span>
                                     </div>
                                     <div className='skills__bar'>
                                         <span className='skills__percentage skills_react'></span>
@@ -109,7 +109,7 @@ function HireView() {
                             <div className='skills__data'>
                                 <div className='skills__titles'>
                                     <h3 className='skills__name'>Node Js</h3>
-                                    <span className='skills_number'>50%</span>
+                                    <span className='skills_number'>80%</span>
                                 </div>
                                 <div className='skills__bar'>
                                     <span className='skills__percentage skills_node'></span>
@@ -118,7 +118,7 @@ function HireView() {
                                 <div className='skills__data'>
                                     <div className='skills__titles'>
                                         <h3 className='skills__name'>Mongo DB</h3>
-                                        <span className='skills_number'>50%</span>
+                                        <span className='skills_number'>90%</span>
                                     </div>
                                     <div className='skills__bar'>
                                         <span className='skills__percentage skills_mongo'></span>

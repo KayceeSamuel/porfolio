@@ -17,6 +17,7 @@ import { Button } from 'react-bootstrap';
 import tasks from '../img/tasks2.png';
 import dreamfitPic2 from '../img/dreamfitproject3.png';
 import animepic2 from '../img/animeprojectpic2.png';
+import implvntPortfolio from '../img/implvntPortfolio.png';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -61,7 +62,7 @@ function ProjectDisplay() {
                                         <p className='portfolio__description'>A fashion marketplace connecting freelance designers, tailors and customers</p>
                                         <p className='portfolio__description'><strong>Technology used:</strong> React, Bootstrap, MongoDB, Node.js, Express</p>
                                         <Button  variant='primary' className='portfolio__button' href='https://slayerscolony.com'>
-                                            Demo
+                                            Open
                                             <ArrowForwardIosIcon className='button__icon' />
                                         </Button>
                                     </div>
@@ -88,13 +89,14 @@ function ProjectDisplay() {
                             {/*-----------------Portfolio 3 ------------------------*/}
                             <SwiperSlide>
                                 <div className='portfolio__content grid'>
-                                    <img src={wedding} className='image__settings' />
+                                    {/* <img src={wedding} className='image__settings' /> */}
+                                    <img src={implvntPortfolio} className="image__settings" />
                                     <div className='portfolio__data'>
                                         <h2 className='portfolio__title'><strong>Wedding planner</strong></h2>
                                         <p className='portfolio__description'>An application used to plan and manage wedding events.</p>
                                         <p className='portfolio__description'><strong>Technology used:</strong> React, Bootstrap, MongoDB, Node.js, Express</p>
-                                        <Button className='portfolio__button'>
-                                            Demo
+                                        <Button className='portfolio__button' href='https://www.implvnt.com/'>
+                                            Open
                                             <ArrowForwardIosIcon className='button__icon' />
                                         </Button>
                                     </div>
